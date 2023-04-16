@@ -6,7 +6,9 @@ from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
      
 import os 
 from dotenv import load_dotenv
+server.enableWebsocketCompression=false
 
+server.enableXsrfProtection=false
 load_dotenv()
 
 # API configuration
